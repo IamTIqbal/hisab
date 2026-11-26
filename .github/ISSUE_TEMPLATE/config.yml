@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Deploy help
+    url: https://github.com/IamTIqbal/hisab/blob/main/docs/DEPLOY.md#troubleshooting
+    about: Most setup problems are covered in the deploy guide's troubleshooting table.

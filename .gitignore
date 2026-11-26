@@ -1,0 +1,25 @@
+# Next.js
+.next/
+out/
+node_modules/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Env (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local database files
+storage/
+*.sqlite
+*.sqlite-journal
+*.db
+
+# Vercel
+.vercel

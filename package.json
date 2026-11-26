@@ -1,0 +1,51 @@
+{
+  "name": "hisab",
+  "version": "1.0.0-beta.1",
+  "description": "A self-hosted personal ledger: income, expenses, accounts, cards and loans. One install, one owner.",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IamTIqbal/hisab.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "typecheck": "tsc --noEmit",
+    "icons": "node scripts/make-icons.mjs",
+    "reset-password": "node scripts/reset-password.mjs"
+  },
+  "dependencies": {
+    "next": "^15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "drizzle-orm": "^0.44.2",
+    "@libsql/client": "^0.15.4",
+    "iron-session": "^8.0.4",
+    "bcryptjs": "^2.4.3",
+    "nodemailer": "^6.10.1",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^22.0.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/nodemailer": "^6.4.17",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.3",
+    "autoprefixer": "^10.4.21",
+    "drizzle-kit": "^0.31.1",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.3.2",
+    "@eslint/eslintrc": "^3.3.1"
+  }
+}
